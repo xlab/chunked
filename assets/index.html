@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Upload a chunked file</title>
+    <link rel="stylesheet" href="/assets/styles/roboto.css">
+    <link rel="stylesheet" href="/assets/styles/normalize.css">
+    <link rel="stylesheet" href="/assets/styles/milligram.min.css">
+    <link rel="stylesheet" href="/assets/style.css">
+</head>
+
+<body>
+    <main class="wrapper">
+        <section class="container">
+            <div>
+                <h2>Chunked File Uploads</h2>
+            </div>
+            <form id="chunkedForm" action="#">
+                <fieldset>
+                    <label for="file">File (max. 2 GB):</label>
+                    <input type="file" placeholder="Select a file" name="file">
+                    <label for="keyAESMAC">AES CMAC-CBC 128-bit Key (hex-encoded)</label>
+                    <input type="text" placeholder="" id="keyAESMAC" value="d2d2e0e43a87abd12baba39df25edc3f">
+                    <label for="keyAESCBC">AES-CBC 256-bit Key (hex-encoded)</label>
+                    <input type="text" placeholder="" id="keyAESCBC" value="3f3ea45ba4cbb51970e33bd1617438655a35e384830594fd0a1f36c12d8ed904">
+                    <input class="button-primary" type="submit" value="Upload">
+                </fieldset>
+            </form>
+        </section>
+    </main>
+</body>
+
+<script type="text/javascript" src="/assets/lib/jquery.min.js"></script>
+<script type="text/javascript" src="/assets/lib/cryptojs-aes.min.js"></script>
+<script type="text/javascript" src="/assets/lib/cmac.min.js"></script>
+<script src="/assets/main.js"></script>
+</html>
