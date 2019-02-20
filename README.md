@@ -48,6 +48,22 @@ Open your browser at http://127.0.0.1:2019
 
 Then use Web UI to upload the file, also check the JavaScript console for debug messages. The algorithm on the frontend is not effective for production IMO, it's totally synchronous.
 
+#### Step 1
+
+<img src="https://cl.ly/8d43fd6be77c/download/Screenshot%202019-02-21%20at%2003.11.56.png" width="700px" />
+
+#### Step 2
+
+<img src="https://cl.ly/3ea3ba9a94ae/download/Screenshot%202019-02-21%20at%2003.11.49.png" width="700px" />
+
+#### Step 3
+
+<img src="https://cl.ly/8ea62d3363aa/download/Screenshot%202019-02-21%20at%2003.13.26.png" width="700px" />
+
+#### Step 4
+
+<img src="https://cl.ly/b2587f56ff26/download/Screenshot%202019-02-21%20at%2003.14.40.png" width="700px" />
+
 ### License
 
 Not for sharing.
